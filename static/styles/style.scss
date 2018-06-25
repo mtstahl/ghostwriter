@@ -280,7 +280,7 @@ table {
 
 #latest-post { display: none; }
 
-.post-container { margin: 0 40px; }
+.post-container { margin: 0;}//0 40px; }
 
 .header-container {
   width: 100%;
@@ -327,6 +327,9 @@ table {
 }
 
 .post-content {
+    width: 100%;
+    max-width: 889px;
+    margin: 0 auto;
     a:hover {
         border-bottom: 1px dotted $primary;
         padding: 0 0 2px;
@@ -350,7 +353,11 @@ table {
     }
 }
 
-.post-footer { margin-top: 5px; }
+.post-footer {
+  width: 100%;
+  max-width: 889px;
+  margin: 5px auto;
+}
 
 .post-tags,
 .share {
