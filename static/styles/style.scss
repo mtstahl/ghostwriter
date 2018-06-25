@@ -172,7 +172,7 @@ table {
     margin: 0 auto;
     position: relative;
     width: 100%;
-    max-width: 889px;
+    //max-width: 889px;
 }
 
 #wrapper {
@@ -281,6 +281,11 @@ table {
 #latest-post { display: none; }
 
 .post-container { margin: 0 40px; }
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .post-header {
     border-bottom: 6px solid $secondary;
@@ -406,6 +411,9 @@ table {
 /* ============================================================ */
 
 .post-list {
+    width: 100%;
+    max-width: 889px;
+    margin: 0 auto;
     list-style: none;
     padding: 0;
 }
