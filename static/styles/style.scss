@@ -431,12 +431,11 @@ table {
         transition: all 0.2s ease-in-out;
         display: block;
         color: #424242;
-        padding: 20px 5px;
+        padding: 20px 50px;
 
         &:hover {
             background: #FCF5F5;
             color: $primary;
-            padding: 20px 12px;
 
             .post-stub-tag { background: $primary; }
         }
@@ -452,6 +451,11 @@ table {
     margin: 7px 0 0;
     padding: 0 5px;
     text-transform: uppercase;
+}
+
+.post-stub-summary {
+  padding: 7px 0 0;
+  font-size: 14px;
 }
 
 .post-stub-title {

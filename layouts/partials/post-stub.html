@@ -5,5 +5,8 @@
         {{ with .Params.featured }}
             <span class="post-stub-tag">Featured</span>
         {{ end }}
+        {{ if .Summary }}
+            <p class="post-stub-summary">{{ .Summary }}</p>
+        {{ end }}
     </a>
 </li>
