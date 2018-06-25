@@ -1,6 +1,7 @@
 # Ghostwriter
 
-Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](https://gohugo.io) site generator.
+## Note
+This is a [Hugo](https://gohugo.io) usable theme originally created by [roryg](https://github.com/roryg/ghostwriter). The adaption for Hugo was accomplished by [jbub](https://github.com/jbub). I finally included harmonisations, especially to have a pretty blog at [higsch.me](http://www.gisch.me).
 
 ## Installation
 
@@ -9,7 +10,7 @@ Inside the folder of your Hugo site run:
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/jbub/ghostwriter
+$ git clone https://github.com/mtstahl/ghostwriter
 ```
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
