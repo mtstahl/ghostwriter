@@ -144,15 +144,18 @@ table tr { border-bottom: 1px dotted #aeadad; }
 .newer-posts, .older-posts { float: left; background: #af2180; color: #fefefe; font-size: 14px; font-weight: 600; margin: 0 5px; padding: 5px 10px 6px; text-transform: uppercase; }
 .newer-posts:hover, .older-posts:hover { background: #303030; }
 .page-number { display: none; }
+.figure { width: 80%; margin: 0 auto; }
+.figure img { margin: 0; padding: 0; }
+p.caption { margin: 3px 0; padding: 0; font-size: 15px; }
 .post-list { width: 100%; max-width: 889px; margin: 0 auto; list-style: none; padding: 0; }
 .post-stub { border-bottom: 1px dotted #303030; margin: 0; position: relative; }
 .post-stub:first-child { padding-top: 0; }
 .post-stub a { -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; display: block; color: #424242; padding: 20px 50px; }
 .post-stub a:hover { background: #fcf5f5; color: #af2180; }
 .post-stub a:hover .post-stub-tag { background: #af2180; }
-.post-stub-tag { background: #303030; border-radius: 3px; color: #fff; float: right; font-size: 10px; margin: 7px 0 0; padding: 0 5px; text-transform: uppercase; }
-.post-stub-summary { padding: 7px 0 0; font-size: 14px; }
-.post-stub-title { display: inline-block; margin: 0; text-transform: none; }
+.post-stub-tag { background: #303030; border-radius: 3px; color: #fff; float: right; font-size: 11px; margin: 2px 0 0; padding: 0 5px; text-transform: uppercase; }
+.post-stub-summary { padding: 3px 0 0; font-size: 14px; }
+.post-stub-title { display: inline-block; margin: 0; font-size: 23px; color: #af2180; text-transform: none; }
 .post-stub-description { display: inline-block; margin: 0; text-transform: none; }
 .post-stub-date { display: inline-block; }
 .post-stub-date:before { content: "/ "; }

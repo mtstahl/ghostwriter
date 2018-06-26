@@ -413,6 +413,22 @@ table {
 
 .page-number { display: none; }
 
+.figure {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.figure img {
+  margin: 0;
+  padding: 0;
+}
+
+p.caption {
+  margin: 3px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
 /* ============================================================ */
 /* Post Index */
 /* ============================================================ */
@@ -454,20 +470,22 @@ table {
     border-radius: 3px;
     color: #FFF;
     float: right;
-    font-size: 10px;
-    margin: 7px 0 0;
+    font-size: 11px;
+    margin: 2px 0 0;
     padding: 0 5px;
     text-transform: uppercase;
 }
 
 .post-stub-summary {
-  padding: 7px 0 0;
+  padding: 3px 0 0;
   font-size: 14px;
 }
 
 .post-stub-title {
     display: inline-block;
     margin: 0;
+    font-size: 23px;
+    color: $primary;
     text-transform: none;
 }
 
