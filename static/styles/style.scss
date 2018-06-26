@@ -213,6 +213,18 @@ table {
     &:hover { background: $secondary; }
 }
 
+.button-round {
+    border-radius: 6px;
+    background: $primary;
+    color: #FFF;
+    float: left;
+    font-size: 17px;
+    margin: 0 0 0 10px;
+    padding: 3px 8px 4px;
+
+    &:hover { background: $secondary; }
+}
+
 .error {
     text-align: center;
 }
@@ -245,6 +257,7 @@ table {
     text-transform: uppercase;
 
     a {
+        border-radius: 6px;
         float: left;
         background: $primary;
         color: #FEFEFE;
