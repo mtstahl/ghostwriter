@@ -90,13 +90,14 @@ img {
 }
 
 pre {
-    background: #F1F0EA;
-    border: 1px solid #DDDBCC;
+    background: $background;
+    border: 1px solid $secondary;
     border-radius: 3px;
     margin: 0 0 20px;
     overflow-x: auto;
     padding: 10px;
-    font-size: 16px;
+    font-size: 95%;
+    line-height: 1.4em;
 
     code {
         padding: 0;
@@ -105,9 +106,8 @@ pre {
 
 code {
     padding: 2px 4px;
-    font-size: 90%;
     color: $primary;
-    background-color: #F1F0EA;
+    background-color: #EEEEEE;
     border-radius: 4px
 }
 
@@ -374,7 +374,7 @@ table {
 
 .post-tags,
 .share {
-    color: #AEADAD;
+    color: $secondary;
     font-size: 14px;
 
     span { font-weight: 600; }
